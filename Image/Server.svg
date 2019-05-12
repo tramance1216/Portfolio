@@ -1,0 +1,169 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="178.734" height="149.229" viewBox="0 0 178.734 149.229">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-16, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: #64ffda;
+      }
+
+      .cls-4 {
+        opacity: 0.7;
+      }
+
+      .cls-5 {
+        opacity: 0.6;
+      }
+
+      .cls-6 {
+        opacity: 0.5;
+      }
+
+      .cls-7 {
+        opacity: 0.4;
+      }
+
+      .cls-8 {
+        opacity: 0.3;
+      }
+
+      .cls-9 {
+        fill: #6c63ff;
+      }
+
+      .cls-10, .cls-11, .cls-12, .cls-13 {
+        fill: none;
+        stroke: #6c63ff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 4px;
+      }
+
+      .cls-11 {
+        stroke-dasharray: 12.52 33.38;
+      }
+
+      .cls-12 {
+        stroke-dasharray: 11.93 31.8;
+      }
+
+      .cls-13 {
+        stroke-dasharray: 11.55 30.79;
+      }
+
+      .cls-14 {
+        fill: #e0e0e0;
+      }
+
+      .cls-15 {
+        fill: #f5f5f5;
+      }
+
+      .cls-16 {
+        opacity: 0.2;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="gray" stop-opacity="0.251"/>
+      <stop offset="0.54" stop-color="gray" stop-opacity="0.122"/>
+      <stop offset="1" stop-color="gray" stop-opacity="0.102"/>
+    </linearGradient>
+  </defs>
+  <g id="グループ化_50" data-name="グループ化 50" transform="translate(0 0)">
+    <rect id="長方形_74" data-name="長方形 74" class="cls-1" width="81.261" height="90.695"/>
+    <rect id="長方形_75" data-name="長方形 75" class="cls-2" width="78.574" height="28.166" transform="translate(1.342 60.554)"/>
+    <rect id="長方形_76" data-name="長方形 76" class="cls-3" width="3.045" height="14.433" transform="translate(7.792 67.235)"/>
+    <g id="グループ化_30" data-name="グループ化 30" class="cls-4" transform="translate(13.802 67.235)">
+      <rect id="長方形_77" data-name="長方形 77" class="cls-3" width="3.045" height="14.433"/>
+    </g>
+    <g id="グループ化_31" data-name="グループ化 31" class="cls-5" transform="translate(19.815 67.235)">
+      <rect id="長方形_78" data-name="長方形 78" class="cls-3" width="3.045" height="14.433"/>
+    </g>
+    <g id="グループ化_32" data-name="グループ化 32" class="cls-6" transform="translate(25.825 67.235)">
+      <rect id="長方形_79" data-name="長方形 79" class="cls-3" width="3.045" height="14.433"/>
+    </g>
+    <g id="グループ化_33" data-name="グループ化 33" class="cls-6" transform="translate(31.836 67.235)">
+      <rect id="長方形_80" data-name="長方形 80" class="cls-3" width="3.045" height="14.433"/>
+    </g>
+    <g id="グループ化_34" data-name="グループ化 34" class="cls-7" transform="translate(37.846 67.235)">
+      <rect id="長方形_81" data-name="長方形 81" class="cls-3" width="3.045" height="14.433"/>
+    </g>
+    <g id="グループ化_35" data-name="グループ化 35" class="cls-8" transform="translate(43.859 67.235)">
+      <rect id="長方形_82" data-name="長方形 82" class="cls-3" width="3.045" height="14.433"/>
+    </g>
+    <circle id="楕円形_12" data-name="楕円形 12" class="cls-9" cx="7.347" cy="7.347" r="7.347" transform="translate(61.446 67.011)"/>
+    <rect id="長方形_83" data-name="長方形 83" class="cls-2" width="78.574" height="28.166" transform="translate(1.342 31.29)"/>
+    <rect id="長方形_84" data-name="長方形 84" class="cls-3" width="3.045" height="14.433" transform="translate(7.792 37.971)"/>
+    <g id="グループ化_36" data-name="グループ化 36" class="cls-4" transform="translate(13.802 37.971)">
+      <rect id="長方形_85" data-name="長方形 85" class="cls-3" width="3.045" height="14.433"/>
+    </g>
+    <g id="グループ化_37" data-name="グループ化 37" class="cls-5" transform="translate(19.815 37.971)">
+      <rect id="長方形_86" data-name="長方形 86" class="cls-3" width="3.045" height="14.433"/>
+    </g>
+    <g id="グループ化_38" data-name="グループ化 38" class="cls-6" transform="translate(25.825 37.971)">
+      <rect id="長方形_87" data-name="長方形 87" class="cls-3" width="3.045" height="14.433"/>
+    </g>
+    <g id="グループ化_39" data-name="グループ化 39" class="cls-6" transform="translate(31.836 37.971)">
+      <rect id="長方形_88" data-name="長方形 88" class="cls-3" width="3.045" height="14.433"/>
+    </g>
+    <g id="グループ化_40" data-name="グループ化 40" class="cls-7" transform="translate(37.846 37.971)">
+      <rect id="長方形_89" data-name="長方形 89" class="cls-3" width="3.045" height="14.433"/>
+    </g>
+    <g id="グループ化_41" data-name="グループ化 41" class="cls-8" transform="translate(43.859 37.971)">
+      <rect id="長方形_90" data-name="長方形 90" class="cls-3" width="3.045" height="14.433"/>
+    </g>
+    <circle id="楕円形_13" data-name="楕円形 13" class="cls-9" cx="7.347" cy="7.347" r="7.347" transform="translate(61.446 37.75)"/>
+    <rect id="長方形_91" data-name="長方形 91" class="cls-2" width="78.574" height="28.166" transform="translate(1.342 2.027)"/>
+    <rect id="長方形_92" data-name="長方形 92" class="cls-3" width="3.045" height="14.433" transform="translate(7.792 8.709)"/>
+    <g id="グループ化_42" data-name="グループ化 42" class="cls-4" transform="translate(13.802 8.709)">
+      <rect id="長方形_93" data-name="長方形 93" class="cls-3" width="3.045" height="14.433"/>
+    </g>
+    <g id="グループ化_43" data-name="グループ化 43" class="cls-5" transform="translate(19.815 8.709)">
+      <rect id="長方形_94" data-name="長方形 94" class="cls-3" width="3.045" height="14.433"/>
+    </g>
+    <g id="グループ化_44" data-name="グループ化 44" class="cls-6" transform="translate(25.825 8.709)">
+      <rect id="長方形_95" data-name="長方形 95" class="cls-3" width="3.045" height="14.433"/>
+    </g>
+    <g id="グループ化_45" data-name="グループ化 45" class="cls-6" transform="translate(31.836 8.709)">
+      <rect id="長方形_96" data-name="長方形 96" class="cls-3" width="3.045" height="14.433"/>
+    </g>
+    <g id="グループ化_46" data-name="グループ化 46" class="cls-7" transform="translate(37.846 8.709)">
+      <rect id="長方形_97" data-name="長方形 97" class="cls-3" width="3.045" height="14.433"/>
+    </g>
+    <g id="グループ化_47" data-name="グループ化 47" class="cls-8" transform="translate(43.859 8.709)">
+      <rect id="長方形_98" data-name="長方形 98" class="cls-3" width="3.045" height="14.433"/>
+    </g>
+    <circle id="楕円形_14" data-name="楕円形 14" class="cls-1" cx="7.92" cy="7.92" r="7.92" transform="translate(60.872 7.913)"/>
+    <circle id="楕円形_15" data-name="楕円形 15" class="cls-1" cx="7.92" cy="7.92" r="7.92" transform="translate(60.872 37.372)"/>
+    <circle id="楕円形_16" data-name="楕円形 16" class="cls-1" cx="7.92" cy="7.92" r="7.92" transform="translate(60.872 66.634)"/>
+    <circle id="楕円形_17" data-name="楕円形 17" class="cls-9" cx="7.347" cy="7.347" r="7.347" transform="translate(61.446 8.486)"/>
+    <g id="グループ化_48" data-name="グループ化 48" class="cls-4" transform="translate(91.146 31.371)">
+      <line id="線_7" data-name="線 7" class="cls-10" x2="1.186"/>
+      <line id="線_8" data-name="線 8" class="cls-11" x2="33.004" transform="translate(7.786)"/>
+      <path id="パス_276" data-name="パス 276" class="cls-10" d="M684,158.67h1.186v1.186" transform="translate(-639.91 -158.67)"/>
+      <line id="線_9" data-name="線 9" class="cls-12" y2="22.794" transform="translate(45.277 7.476)"/>
+      <line id="線_10" data-name="線 10" class="cls-10" y2="1.186" transform="translate(45.277 33.414)"/>
+    </g>
+    <g id="グループ化_49" data-name="グループ化 49" class="cls-4" transform="translate(27.399 95.52)">
+      <line id="線_11" data-name="線 11" class="cls-10" x1="1.186" y1="0.006" transform="translate(44.09 25.41)"/>
+      <line id="線_12" data-name="線 12" class="cls-11" x1="33.002" y1="0.158" transform="translate(4.488 25.22)"/>
+      <path id="パス_277" data-name="パス 277" class="cls-10" d="M139.766,605.772l-1.186-.006.008-1.186" transform="translate(-138.58 -580.566)"/>
+      <line id="線_13" data-name="線 13" class="cls-13" y1="13.696" x2="0.091" transform="translate(0.047 4.231)"/>
+      <line id="線_14" data-name="線 14" class="cls-10" y1="1.186" x2="0.008" transform="translate(0.158)"/>
+    </g>
+    <path id="パス_278" data-name="パス 278" class="cls-14" d="M706.563,703.08s2.357,15.912,16.266,21.217H666.48c13.909-5.3,16.266-21.217,16.266-21.217Z" transform="translate(-563.969 -578.429)"/>
+    <rect id="長方形_99" data-name="長方形 99" class="cls-1" width="56.872" height="3.361" transform="translate(102.236 145.868)"/>
+    <rect id="長方形_100" data-name="長方形 100" class="cls-15" width="56.341" height="2.594" transform="translate(102.519 145.868)"/>
+    <path id="パス_279" data-name="パス 279" class="cls-1" d="M661.568,417H570.125A2.125,2.125,0,0,0,568,419.125v57.612a2.543,2.543,0,0,0,2.543,2.543h90.608a2.543,2.543,0,0,0,2.542-2.543V419.125A2.125,2.125,0,0,0,661.568,417Z" transform="translate(-484.96 -348.911)"/>
+    <path id="パス_280" data-name="パス 280" class="cls-2" d="M427.945,348.78h88.746a2.125,2.125,0,0,1,2.125,2.125v49.324h-93V350.907A2.125,2.125,0,0,1,427.945,348.78Z" transform="translate(-341.629 -279.821)"/>
+    <path id="パス_281" data-name="パス 281" class="cls-15" d="M664.274,690.106H576.363a2.543,2.543,0,0,1-2.542-2.543V681.62h93v5.943a2.543,2.543,0,0,1-2.543,2.543Z" transform="translate(-489.629 -561.212)"/>
+    <rect id="長方形_101" data-name="長方形 101" class="cls-9" width="84.157" height="41.532" transform="translate(88.788 73.127)"/>
+    <path id="パス_282" data-name="パス 282" class="cls-16" d="M452.616,372.56H533.5v-2.77H449.34v41.532h3.276Z" transform="translate(-360.499 -296.677)"/>
+  </g>
+</svg>
