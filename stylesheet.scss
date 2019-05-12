@@ -1,0 +1,85 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Avenir';
+}
+
+.container{ /*PCでの最大幅*/
+  max-width: 1200px;
+  width:100%;
+  text-align: center;
+  margin: 0 auto;
+};
+
+/*Font-sizeの統一*/
+$Biggest : 1.5rem;
+$Bigger : 1.25rem;
+$normal : 1rem;
+$Smaller : 0.8rem;
+$Samllest : 0.7;
+
+$main-color : #005792;
+$background-color : #EDF9FC;
+
+header{
+  width:100%;
+  height:60px;
+  background-color: #005792;
+  color:white;
+}
+
+.logo{
+  float:left;
+  padding:15px 0 15px 25px;
+  width:130px;
+}
+
+.Menu_bar{
+  float: right;
+  text-align: center;
+  list-style-type: none;
+  height:100%;
+  letter-spacing: -1em;
+
+  li{
+    display: inline-block;
+    font-size: $normal;
+    line-height: 60px;
+    cursor: pointer;
+    letter-spacing: normal;
+    position: relative;
+    transition: all 1s 0s ease;
+  }
+
+  a{
+    width:100%;
+    padding:20px 45px;
+
+    &::after{
+      display: block;
+      content: '';
+      position: absolute;
+      background-color: black;
+      height: 3px;
+      transition: all 1s ease-in-out;
+      left: 0;
+      bottom: 0;
+      width: 0%;
+      top:10px;
+    }
+
+    &:hover::after{
+      width: 100%;
+    }
+
+  }
+}
+
+
+
+
+footer{
+  width: 100%;
+  height : 60px;
+  background-color: $main-color;
+  float: left;
+}

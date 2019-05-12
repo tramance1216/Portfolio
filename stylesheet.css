@@ -1,0 +1,65 @@
+@charset "UTF-8";
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Avenir'; }
+
+.container {
+  /*PCでの最大幅*/
+  max-width: 1200px;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto; }
+
+/*Font-sizeの統一*/
+header {
+  width: 100%;
+  height: 60px;
+  background-color: #005792;
+  color: white; }
+
+.logo {
+  float: left;
+  padding: 15px 0 15px 25px;
+  width: 130px; }
+
+.Menu_bar {
+  float: right;
+  text-align: center;
+  list-style-type: none;
+  height: 100%;
+  letter-spacing: -1em; }
+  .Menu_bar li {
+    display: inline-block;
+    font-size: 1rem;
+    line-height: 60px;
+    cursor: pointer;
+    letter-spacing: normal;
+    position: relative;
+    -webkit-transition: all 1s 0s ease;
+    -o-transition: all 1s 0s ease;
+    transition: all 1s 0s ease; }
+  .Menu_bar a {
+    width: 100%;
+    padding: 20px 45px; }
+    .Menu_bar a::after {
+      display: block;
+      content: '';
+      position: absolute;
+      background-color: black;
+      height: 3px;
+      -webkit-transition: all 1s ease-in-out;
+      -o-transition: all 1s ease-in-out;
+      transition: all 1s ease-in-out;
+      left: 0;
+      bottom: 0;
+      width: 0%;
+      top: 10px; }
+    .Menu_bar a:hover::after {
+      width: 100%; }
+
+footer {
+  width: 100%;
+  height: 60px;
+  background-color: #005792;
+  float: left; }
