@@ -13,6 +13,26 @@
   margin: 0 auto; }
 
 /*Font-sizeの統一*/
+/* for modern brouser */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden; }
+
+/* IE7,MacIE5 */
+.clearfix {
+  display: inline-block; }
+
+/* WinIE6 below, Exclude MacIE5 \*/
+* html .clearfix {
+  height: 1%; }
+
+.clearfix {
+  display: block; }
+
+/**/
 header {
   width: 100%;
   height: 60px;
@@ -62,7 +82,8 @@ header {
 .top-wrapper {
   width: 100%;
   background-color: #EDF9FC;
-  height: 600px; }
+  height: 550px;
+  padding-top: 50px; }
   .top-wrapper .top-contents {
     width: 100%;
     height: 100%;
@@ -95,6 +116,111 @@ header {
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     padding-right: 5%; }
+
+section {
+  background-color: #EDF9FC;
+  padding-top: 50px; }
+  section h1 {
+    margin: 0 auto;
+    font-size: 1.875rem;
+    width: 80%;
+    line-height: 60px;
+    border-bottom: 3px solid #005792; }
+
+#about {
+  padding-bottom: 20px; }
+  #about p {
+    display: inline-block;
+    text-align: left;
+    padding: 40px 0;
+    font-size: 1.25rem;
+    line-height: 55px; }
+  #about .cando {
+    position: relative;
+    overflow: hidden;
+    width: 45%;
+    float: right;
+    margin-right: 5%; }
+    #about .cando h1 {
+      font-size: 1.25rem;
+      line-height: 40px;
+      width: 40%; }
+  #about #learn {
+    position: absolute;
+    width: 100%;
+    padding: 0;
+    font-size: 0.8rem;
+    bottom: 5%;
+    left: 3%; }
+
+#program {
+  width: 45%; }
+
+.blog_contents {
+  margin: 20px auto;
+  width: 750px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.content {
+  width: 250px;
+  height: 400px;
+  padding: 10px 10px; }
+  .content img {
+    width: 70%;
+    text-align: center;
+    margin-bottom: 15px; }
+  .content .date {
+    font-size: 0.8rem;
+    text-align: left;
+    margin-bottom: 15px; }
+  .content h3 {
+    font-size: 1.25rem;
+    text-align: left;
+    margin-bottom: 5px; }
+  .content .text {
+    font-size: 1rem;
+    text-align: left;
+    margin-bottom: 15px; }
+  .content .link {
+    font-size: 0.8rem;
+    text-align: right; }
+
+#contact p {
+  display: inline-block;
+  text-align: left;
+  padding: 40px 0 0 0;
+  font-size: 1.25rem;
+  line-height: 55px; }
+
+#contact li {
+  width: 60%;
+  display: inline-block;
+  line-height: 80px;
+  padding-left: 5%;
+  text-align: left; }
+
+#contact span {
+  color: red;
+  font-size: 0.7; }
+
+#contact .contact-form {
+  float: right;
+  vertical-align: middle; }
+  #contact .contact-form textarea {
+    font-size: 1rem;
+    vertical-align: middle; }
+
+#contact .send {
+  width: 100px;
+  line-height: 40px;
+  font-size: 1rem;
+  height: 40px;
+  text-align: center;
+  border-radius: 5px;
+  border: 2px solid black;
+  margin: 20px auto 20px auto; }
 
 footer {
   width: 100%;

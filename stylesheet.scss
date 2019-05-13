@@ -12,14 +12,35 @@
 };
 
 /*Font-sizeの統一*/
-$Biggest : 1.5rem;
+$Biggest : 1.875rem;
 $Bigger : 1.25rem;
-$normal : 1rem;
+$Normal : 1rem;
 $Smaller : 0.8rem;
 $Samllest : 0.7;
 
 $main-color : #005792;
 $background-color : #EDF9FC;
+
+/* for modern brouser */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+/* IE7,MacIE5 */
+.clearfix {
+  display: inline-block;
+}
+/* WinIE6 below, Exclude MacIE5 \*/
+* html .clearfix {
+  height: 1%;
+}
+.clearfix {
+  display: block;
+}
+/**/
 
 header{
   width:100%;
@@ -43,7 +64,7 @@ header{
 
   li{
     display: inline-block;
-    font-size: $normal;
+    font-size: $Normal;
     line-height: 60px;
     cursor: pointer;
     letter-spacing: normal;
@@ -78,7 +99,8 @@ header{
 .top-wrapper{
   width:100%;
   background-color: $background-color;
-  height:600px;
+  height:550px;
+  padding-top: 50px;
 
     .top-contents{
       width:100%;
@@ -123,6 +145,142 @@ header{
 
 }
 
+section{
+  background-color: $background-color;
+  padding-top:50px;
+
+  h1{
+    margin: 0 auto;
+    font-size: $Biggest;
+    width:80%;
+    line-height: 60px;
+    border-bottom: 3px solid $main-color;
+  }
+}
+
+#about{
+  padding-bottom: 20px;
+  p{
+    display: inline-block;
+    text-align: left;
+    padding: 40px 0;
+    font-size: $Bigger;
+    line-height: 55px;
+  }
+
+  .cando{
+    position: relative;
+    overflow: hidden;
+    width: 45%;
+    float: right;
+    margin-right: 5%;
+
+    h1{
+      font-size: $Bigger;
+      line-height: 40px;
+      width:40%;
+    }
+  }
+
+  #learn{
+    position: absolute;
+    width:100%;
+    padding: 0;
+    font-size: $Smaller;
+    bottom: 5%;
+    left:3%;
+  }
+}
+
+#program{
+  width:45%;
+}
+
+.blog_contents{
+  margin: 20px auto;
+  width:750px;
+  display: flex;
+}
+
+.content{
+  width:250px;
+  height:400px;
+  padding:10px 10px;
+
+  img{
+    width:70%;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .date{
+    font-size: $Smaller;
+    text-align: left;
+    margin-bottom: 15px;
+  }
+  h3{
+    font-size: $Bigger;
+    text-align: left;
+    margin-bottom: 5px;
+  }
+  .text{
+    font-size: $Normal;
+    text-align: left;
+    margin-bottom: 15px;
+  }
+
+  .link{
+    font-size: $Smaller;
+    text-align: right;
+  }
+}
+
+#contact{
+  p{
+    display: inline-block;
+    text-align: left;
+    padding: 40px 0 0 0;
+    font-size: $Bigger;
+    line-height: 55px;
+  }
+
+  li{
+    width:60%;
+    display: inline-block;
+    line-height: 80px;
+    padding-left: 5%;
+    text-align: left;
+  }
+
+  span{
+    color:red;
+    font-size: $Samllest;
+  }
+
+  .contact-form{
+    float: right;
+    vertical-align: middle;
+
+    textarea{
+      font-size: $Normal;
+      vertical-align : middle;
+    }
+
+  }
+
+  .send{
+    width:100px;
+    line-height: 40px;
+    font-size:$Normal;
+    height:40px;
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid black;
+    margin: 20px auto 20px auto;
+
+  }
+
+}
 
 
 footer{
